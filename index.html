@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar using HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="gambar/Group.png" alt="Logo">
+        </a>        
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Plant Care</a>
+            <a href="#">Blogs</a>
+        </nav>
+
+        <div class="input-wrapper">
+            <button class="icon"> 
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="25px" width="25px">
+                <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#fff" d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"></path>
+                <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#fff" d="M22 22L20 20"></path>
+              </svg>
+            </button>
+            <input placeholder="search.." class="input" name="text" type="text">
+          </div>
+
+          <!-- From Uiverse.io by Julian956 --> 
+            <button data-quantity="0" class="btn-cart">
+                <svg class="icon-cart" viewBox="0 0 24.38 30.52" height="30.52" width="24.38" xmlns="http://www.w3.org/2000/svg">
+                <title>icon-cart</title>
+                <path transform="translate(-3.62 -0.85)" d="M28,27.3,26.24,7.51a.75.75,0,0,0-.76-.69h-3.7a6,6,0,0,0-12,0H6.13a.76.76,0,0,0-.76.69L3.62,27.3v.07a4.29,4.29,0,0,0,4.52,4H23.48a4.29,4.29,0,0,0,4.52-4ZM15.81,2.37a4.47,4.47,0,0,1,4.46,4.45H11.35a4.47,4.47,0,0,1,4.46-4.45Zm7.67,27.48H8.13a2.79,2.79,0,0,1-3-2.45L6.83,8.34h3V11a.76.76,0,0,0,1.52,0V8.34h8.92V11a.76.76,0,0,0,1.52,0V8.34h3L26.48,27.4a2.79,2.79,0,0,1-3,2.44Zm0,0"></path>
+                </svg>
+                <span class="quantity"></span>
+            </button>
+
+        <button class="button">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9" />
+            </svg>              
+          <p class="text">Login</p>
+        </button>
+    </header>
+
+    <div class="container">
+      <div class="text-content">
+        <h5>WELCOME TO GREENSHOP</h5>
+        <h1>LET’S MAKE A BETTER <span class="highlight">PLANET</span></h1>
+        <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
+        <a href="#" class="btn">SHOP NOW</a>
+      </div>
+      <div class="image-content">
+        <img src="gambar/01_1.png" alt="Green Plant">
+      </div>
+    </div>
+    
+
+    <div class="product-section">
+      <div class="product-filters">
+        <div>
+          <a href="#">All Plants</a>
+          <a href="#">New Arrivals</a>
+          <a href="#">Sale</a>
+        </div>
+        <div>
+          <label for="sort">Sort by:</label>
+          <div class="menu">
+            <div class="item">
+              <a href="#" class="link">
+                <span> Our Services </span>
+                <svg viewBox="0 0 360 360" xml:space="preserve">
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      id="XMLID_225_"
+                      d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"
+                    ></path>
+                  </g>
+                </svg>
+              </a>
+              <div class="submenu">
+                <div class="submenu-item">
+                  <a href="#" class="submenu-link"> Development </a>
+                </div>
+                <div class="submenu-item">
+                  <a href="#" class="submenu-link"> Design </a>
+                </div>
+                <div class="submenu-item">
+                  <a href="#" class="submenu-link"> Marketing </a>
+                </div>
+                <div class="submenu-item">
+                  <a href="#" class="submenu-link"> SEO </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="gambar/image_1.png" alt="Barberton Daisy">
+          <h4>Barberton Daisy</h4>
+          <p class="price">$119.00</p>
+        </div>
+        <div class="product-card">
+          <img src="gambar/product-21-320x320 1.png" alt="Angel Wing Begonia">
+          <h4>Angel Wing Begonia</h4>
+          <p class="price">$169.00</p>
+        </div>
+        <div class="product-card">
+          <img src="gambar/image 2.png" alt="African Violet">
+          <h4>African Violet</h4>
+          <p class="price">$189.00 <span class="original-price">$229.00</span></p>
+        </div>
+        <div class="product-card">
+          <img src="gambar/01_1.png" alt="Beach Spider Lily">
+          <h4>Beach Spider Lily</h4>
+          <p class="price">$129.00</p>
+        </div>
+        <div class="product-card">
+          <img src="gambar/image 7.png" alt="Blushing Bromeliad">
+          <h4>Blushing Bromeliad</h4>
+          <p class="price">$139.00</p>
+        </div>
+        <div class="product-card">
+          <img src="gambar/image 9.png" alt="Bird's Nest Fern">
+          <h4>Bird's Nest Fern</h4>
+          <p class="price">$99.00</p>
+        </div>
+        <div class="product-card">
+          <img src="gambar/product-20-320x320 1.png" alt="Broadleaf Lady Palm">
+          <h4>Broadleaf Lady Palm</h4>
+          <p class="price">$59.00</p>
+        </div>
+        <div class="product-card">
+          <img src="gambar/image 8.png" alt="Aluminum Plant">
+          <h4>Aluminum Plant</h4>
+          <p class="price">$179.00</p>
+        </div>
+      </div>
+  
+      <div class="pagination">
+        <button class="active">1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+      </div>
+    </div>
+    
+
+    <section class="z-promo-section">
+      <div class="z-container z-promo-container">
+        <div class="z-promo-card">
+          <img src="gambar/image 2.png" alt="Summer Cactus" />
+          <div class="z-promo-text">
+            <h3>SUMMER CACTUS <br>& SUCCULENTS</h3>
+            <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
+            <a href="#" class="z-btn-find">Find More</a>
+          </div>
+        </div>
+    
+        <div class="z-promo-card">
+          <img src="gambar/image 14.png" alt="Styling Trends" />
+          <div class="z-promo-text">
+            <h3>STYLING TRENDS <br>& MUCH MORE</h3>
+            <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
+            <a href="#" class="z-btn-find">Find More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="z-footer">
+      <div class="z-footer-container">
+        <div class="z-footer-item">
+          <i class="fas fa-seedling z-footer-icon"></i>
+          <span class="z-footer-brand">GREENSHOP</span>
+        </div>
+        <div class="z-footer-item">
+          <i class="fas fa-map-marker-alt z-footer-icon"></i>
+          <span>70 West Buckingham Ave.<br>Farmingdale, NY 11735</span>
+        </div>
+        <div class="z-footer-item">
+          <i class="fas fa-envelope z-footer-icon"></i>
+          <span>contact@greenshop.com</span>
+        </div>
+        <div class="z-footer-item">
+          <i class="fas fa-phone z-footer-icon"></i>
+          <span>+88 01911 717 490</span>
+        </div>
+      </div>
+      <div class="z-footer-bottom">
+        &copy; 2025 GreenShop. All Rights Reserved.
+      </div>
+    </footer>
+    
+    
+    
+</body>
+
+</html>
